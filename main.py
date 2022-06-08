@@ -58,9 +58,9 @@ def main():
 
     if percent_diff_data >= 5:
         if price_difference < 0:
-            percent_diff_str = f"+{percent_diff_data:.2f}"
+            percent_diff_str = f"+{percent_diff_data:.2f}%"
         else:
-            percent_diff_str = f"-{percent_diff_data:.2f}"
+            percent_diff_str = f"-{percent_diff_data:.2f}%"
 
         parameters = {
             "apiKey": API_TOKEN_NEWS,
